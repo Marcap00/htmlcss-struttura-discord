@@ -6,7 +6,7 @@
 }
 
 /* Utilities*/
-.container {
+.container-header {
     max-width: 1000px;
     min-height: 60px;
     margin: 0 auto;
@@ -48,4 +48,36 @@ main {
     background-color: white;
     border: 1px dashed red;
     margin: 30px auto;
+}
+
+.container {
+    min-height:500px ;
+    display: flex;
+    align-items: center;
+    
+}
+
+.container.white {
+    background-color: white;
+}
+
+.container.green {
+    background-color: rgb(32, 0, 128);
+}
+.container-content {
+    width: 1000px;
+    min-height: 400px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.content-60 {
+    width: 60%;
+    background-color: #ff00006e;
+}
+
+.content-40 {
+    width: 40%;
+    background-color: pink;
 }
