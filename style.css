@@ -61,11 +61,11 @@ main {
     background-color: white;
 }
 
-.container.green {
+.container.blue {
     background-color: rgb(32, 0, 128);
 }
 .container-content {
-    width: 1000px;
+    min-width: 1000px;
     min-height: 400px;
     margin: 0 auto;
     display: flex;
@@ -80,4 +80,57 @@ main {
 .content-40 {
     width: 40%;
     background-color: pink;
+}
+
+.content-30 {
+    width: 30%;
+    background-color: rgb(240, 79, 79);
+}
+
+.content-70 {
+    width: 70%;
+    background-color: pink;
+    display: flex;
+}
+
+.col-25 {
+    width: 25%;
+    background-color: #282c34;
+    border: 2px dashed white;
+}
+
+
+
+.large-container {
+    min-height: 700px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-green {
+    min-height: 600px;
+    min-width: 1000px;
+    background-color: green;
+    margin: 0 auto;
+}
+
+footer {
+    min-height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.container-footer {
+    min-height: 60px;
+    background-color: aqua;
+    padding: 10px 0;
+    min-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
